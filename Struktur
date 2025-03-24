@@ -1,0 +1,27 @@
+timor-chat/               # Repositori utama
+│── backend/              # Backend (FastAPI & Node.js)
+│   ├── fastapi/          # Backend utama menggunakan FastAPI
+│   │   ├── main.py       # File utama FastAPI
+│   │   ├── auth.py       # API login & register
+│   │   ├── chat.py       # API chat menggunakan Firebase
+│   │   ├── .env          # Konfigurasi secret key
+│   │   ├── requirements.txt  # Daftar library Python
+│   │   ├── firebase-config.json  # Konfigurasi Firebase
+│   ├── nodejs/           # (Opsional) Backend tambahan dengan Node.js
+│
+│── frontend/             # Frontend menggunakan Flutter
+│   ├── timor_chat/       # Folder proyek Flutter
+│   │   ├── lib/
+│   │   │   ├── main.dart  # Kode utama Flutter
+│   │   ├── pubspec.yaml  # Dependensi Flutter
+│
+│── firebase/             # Setup Firebase
+│   ├── firebase-config.json  # Konfigurasi Firebase
+│
+│── docs/                 # Dokumentasi proyek
+│   ├── architecture.md   # Penjelasan arsitektur sistem
+│   ├── api-docs.md       # Dokumentasi API (FastAPI & Node.js)
+│
+│── README.md             # Dokumentasi utama repositori
+
+│── LICENSE               # Lisensi proyek (jika ada)
