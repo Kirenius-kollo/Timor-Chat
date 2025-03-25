@@ -2,3 +2,39 @@ git rm -r --cached .
 git add .
 git commit -m "Menambahkan .gitignore"
 git push origin main
+
+# ⬇⬇⬇ Python & FastAPI ⬇⬇⬇
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+venv/
+.env
+.envrc
+
+# ⬇⬇⬇ Node.js & NPM ⬇⬇⬇
+node_modules/
+package-lock.json
+
+# ⬇⬇⬇ Frontend Build Files ⬇⬇⬇
+dist/
+build/
+*.log
+
+# ⬇⬇⬇ VS Code & Editor Files ⬇⬇⬇
+.vscode/
+.idea/
+
+# ⬇⬇⬇ System Files ⬇⬇⬇
+.DS_Store
+Thumbs.db
+
+# ⬇⬇⬇ API Key & Credentials ⬇⬇⬇
+backend/.env
+frontend/.env
+openai_key.txt
+
+
+
