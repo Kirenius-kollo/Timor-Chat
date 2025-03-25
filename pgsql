@@ -9,3 +9,24 @@ Timor-Chat/
 │── 📄 .gitignore        → (File yang diabaikan)
 │── 📄 README.md         → (Dokumentasi)
 │── 📄 package.json      → (Jika pakai Node.js)
+
+timor-chat/
+│── frontend/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│
+│── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│
+│── models/
+│   ├── translator.py
+│
+│── data/
+│   ├── uab_meto.json
+│   ├── alkitab.json
+│
+│── .gitignore
+│── README.md
+
