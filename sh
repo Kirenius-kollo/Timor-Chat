@@ -14,3 +14,14 @@ Timor-Chat/
 │   ├── alkitab.json    # Alkitab dalam berbagai bahasa
 │── .gitignore           # File yang tidak perlu di-upload ke GitHub
 │── README.md            # Dokumentasi proyek
+
+# Tambahkan semua file
+git add .
+
+# Buat commit dengan pesan
+git commit -m "Initial commit - Timor Chat dengan NLP, AI, dan Kamus Multibahasa"
+
+# Upload ke GitHub
+git branch -M main
+git push -u origin main
+
